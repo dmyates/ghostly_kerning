@@ -1,0 +1,29 @@
+{
+	"name": "ghostly_kerning",
+	"version": "0.0.1",
+    "description": "Integrates typeset.js with content and excerpt helpers, and provides various tweaks to the excerpt helper.",
+    "author": "David Yates",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/F1ak3r/ghostly_kerning"
+    },
+    "licenses" : [
+            {
+                "type": "MIT",
+                "url": "https://raw.github.com/F1ak3r/ghostly_kerning/master/LICENSE"
+            }
+    ],
+    "main": "index.js",
+	"dependencies": {
+		"ghost-app": "0.0.2",
+		"express-hbs": "~0.8.4",
+		"lodash": "~3.10.1",
+		"downsize": "~0.0.8",
+		"typeset": "~0.1.6"
+	},
+    "ghost": {
+        "permissions": {
+            "helpers": ["content_typeset", "excerpt_typeset"]
+        }
+    }
+}
