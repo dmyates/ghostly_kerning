@@ -13,13 +13,14 @@ This was made mostly for my [personal use](https://davidyat.es), so it's a bit s
 Installation
 ------------
 
-1. Place the app folder in `content/apps/`.
-2. Add it to your active apps by appending it to the array in the `value` field of the `activeApps` record in the `settings`. You can do this by access your blog database directly through a SQLite/Postgres client, or by [exporting a backup of your blog and editing the JSON](https://github.com/TryGhost/Ghost/wiki/Apps-Getting-Started-for-Ghost-Devs).
+1. Place the app directory in `content/apps/`.
+2. Run `npm install` in the `content/apps/ghostly_kerning` directory.
+3. Add it to your active apps by appending it to the array in the `value` field of the `activeApps` record in the `settings`. You can do this by access your blog database directly through a SQLite/Postgres client, or by [exporting a backup of your blog and editing the JSON](https://github.com/TryGhost/Ghost/wiki/Apps-Getting-Started-for-Ghost-Devs).
 
 Usage
 -----
 
-Replace `{{content}}` and `{{excerpt}}` helpers in your theme with `{{content_typeset}}` and `{{excerpt_typest}}`. Optionally, use the sentence truncation feature like so `{{excerpt_typeset sentences="4"}}` to make your excerpt the first four sentences.
+Replace `{{content}}` and `{{excerpt}}` helpers in your theme with `{{content_typeset}}` and `{{excerpt_typeset}}`. Optionally, use the sentence truncation feature like so `{{excerpt_typeset sentences="4"}}` to make your excerpt the first four sentences.
 
 Include [typeset.css](https://blot.im/typeset/demo/typeset.css) in your theme and tweak it for your chosen font for full advantage.
 

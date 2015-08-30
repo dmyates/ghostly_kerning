@@ -5,12 +5,12 @@
     "author": "David Yates",
     "repository": {
         "type": "git",
-        "url": "git://github.com/F1ak3r/ghostly-kerning"
+        "url": "git://github.com/F1ak3r/ghostly_kerning"
     },
     "licenses" : [
             {
                 "type": "MIT",
-                "url": "https://raw.github.com/F1ak3r/ghostly-kerning/master/LICENSE"
+                "url": "https://raw.github.com/F1ak3r/ghostly_kerning/master/LICENSE"
             }
     ],
     "main": "index.js",
