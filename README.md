@@ -1,9 +1,9 @@
 Ghostly Kerning
 ===============
 
-A simple app (plugin) for the Ghost blogging platform which formats post excerpts and contents using David Merfield's [Typset](https://github.com/davidmerfield/typeset) HTML pre-processor.
+A simple app (plugin) for the Ghost blogging platform which formats post excerpts and contents using David Merfield's [Typeset](https://github.com/davidmerfield/typeset) HTML pre-processor.
 
-The new `excerpt-typeset` also contains the following enhancements:
+The new `excerpt-typeset` Handlebars helper also contains the following enhancements:
 
 * Removes the text of headings, blockquotes and `<center>` tags.
 * Provides truncation according to sentences, in addition to words or characters.
