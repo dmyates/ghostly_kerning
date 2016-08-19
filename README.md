@@ -8,7 +8,7 @@ The new `excerpt-typeset` Handlebars helper also contains the following enhancem
 * Removes the text of headings, blockquotes and `<center>` tags.
 * Provides truncation according to sentences, in addition to words or characters.
 
-This was made mostly for my [personal use](https://davidyat.es), so it's a bit schizo. Please hack it up to be more to your liking.
+This was made mostly for my personal use, so it's a bit schizo. As I don't use Ghost for my personal website anymore, I'm not going to be updating it. Please hack it up to be more to your liking.
 
 Installation
 ------------
